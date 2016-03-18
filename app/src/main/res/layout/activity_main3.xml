@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.java.therightwaytousethekeyboard.MainActivity4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="centerInside"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/tre"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/textSize"
+            android:text="Nel caso in cui si debbano premere due tasti contemporaneamente (es. ALT o il tasto Maiuscole), premere un tasto con un dito di una mano e l'altro con un dito dell'altra mano, sfruttando l'eventuale presenza dei tasti speciali che sono duplicati in modo simmetrico (quelli di destra, talvolta chiamati erroneamente tasti per mancini, in realtà sono per la distribuzione del lavoro tra le mani). Ciò diminuisce molto lo sforzo delle dita, specie considerando che molte persone usano sempre la stessa mano per premere, ad esempio, la maiuscola."/>.
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/scrivere_al_computer"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/back3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@color/colorBottomBack"
+                android:textColor="#fff"
+                android:text="INDIETRO"
+                android:onClick="Back3"
+                />
+
+            <Button
+                android:id="@+id/next3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@color/colorBottomNext"
+                android:textColor="#fff"
+                android:text="AVANTI"
+                android:onClick="Next3"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

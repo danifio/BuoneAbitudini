@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- in questo file creo il menu dell'app -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:buoneabitudini="http://schemas.android.com/apk/res-auto">
+<!-- gli item permettono di caricare la pagina selezionata -->
+
+    <!-- connette alla pagina home -->
+    <item
+        android:icon="@mipmap/home"
+        buoneabitudini:showAsAction="ifRoom"
+        android:id="@+id/item1"
+        android:title="Home"
+        />
+
+    <!-- connette alla pagina 1-->
+    <item
+        android:id="@+id/item2"
+        android:title="La postura"
+       />
+
+    <!-- connette alla pagina 2-->
+    <item
+        android:id="@+id/item3"
+        android:title="Forza richiesta" />
+
+    <!-- connette alla pagina 3-->
+    <item
+        android:id="@+id/item4"
+        android:title="Premere 2 tasti" />
+
+    <!-- connette alla pagina 4-->
+    <item
+        android:id="@+id/item5"
+        android:title="Ritmo dei tasti" />
+
+    <!-- connette alla pagina 5-->
+    <item android:id="@+id/item6"
+        android:title="Pausa" />
+
+    <!-- connette alla pagina 6-->
+    <item android:id="@+id/item7"
+        android:title="The End" />
+
+</menu>
